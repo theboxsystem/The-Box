@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Box</title>
+  <meta charset="utf-8">
+
+  <link rel="icon" href="https://drive.google.com/thumbnail?id=1jUXOwklAfrDrc1SXowz1jEhPKNvo9JgZ">
+
+  <style>
+    html,body{height:100%;margin:0}
+    #app{position:fixed;inset:0;border:0;width:100%;height:100%}
+  </style>
+</head>
+<body>
+
+  <iframe id="app" allowfullscreen="true" referrerpolicy="no-referrer"></iframe>
+  <script>
+  
+    const APP_URL = "  ";
+
+    const f = document.getElementById("app");
+    f.src = APP_URL;
+    window.onload = function () {
+      f.requestFullscreen().catch(() => {});
+    };
+  </script>
+</body>
+</html>

@@ -16,7 +16,7 @@
   <iframe id="app" allowfullscreen="true" referrerpolicy="no-referrer"></iframe>
   <script>
   
-    const APP_URL = "  ";
+    const APP_URL = "https://script.google.com/macros/s/AKfycbwtXphrPlabeBn02tYSLtanZIu7ChuaC0XNYczCB1Z3NlDN7G2IyUi-LVDd01sK7VgRug/exec";
 
     const f = document.getElementById("app");
     f.src = APP_URL;
